@@ -22,9 +22,10 @@ build/
 # Runtime artifacts
 *.log
 logs/
-data/index.json
-data/*.sqlite
-data/*.db
+**/data/index.json
+**/data/*.sqlite
+**/data/*.db
+**/*.jsonl
 *.jsonl
 !eval/*.json
 !**/eval/*.json
