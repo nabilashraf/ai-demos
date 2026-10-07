@@ -1,0 +1,32 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the refund window for Pro plans?",
+    "expectedKeywords": ["14", "days", "refund"],
+    "expectedSources": ["pricing.md"]
+  },
+  {
+    "id": "q2",
+    "question": "Which encryption is used for data at rest?",
+    "expectedKeywords": ["AES-256", "encrypt"],
+    "expectedSources": ["security.md"]
+  },
+  {
+    "id": "q3",
+    "question": "What is the API rate limit for the Business plan?",
+    "expectedKeywords": ["1000", "1,000", "minute"],
+    "expectedSources": ["integrations.md"]
+  },
+  {
+    "id": "q4",
+    "question": "How long is the NovaDesk trial?",
+    "expectedKeywords": ["21", "day"],
+    "expectedSources": ["pricing.md"]
+  },
+  {
+    "id": "q5",
+    "question": "What support channel is available only on Business?",
+    "expectedKeywords": ["phone", "priority"],
+    "expectedSources": ["support.md"]
+  }
+]

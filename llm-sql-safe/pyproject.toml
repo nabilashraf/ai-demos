@@ -1,0 +1,18 @@
+[project]
+name = "llm-sql-safe"
+version = "1.0.0"
+description = "Safe LLM-to-SQL via vetted templates — XCatalyst AI demos"
+requires-python = ">=3.10"
+dependencies = [
+  "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+openai = ["openai>=1.40.0"]
+
+[project.scripts]
+llm-sql-safe = "src.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]

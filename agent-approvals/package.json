@@ -1,0 +1,23 @@
+{
+  "name": "agent-approvals",
+  "version": "1.0.0",
+  "description": "Tool-calling agent with human approval gate before writes — XCatalyst AI demos",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/cli.ts",
+    "demo": "tsx src/cli.ts --auto-script",
+    "build": "tsc -p tsconfig.json --noEmit"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  }
+}

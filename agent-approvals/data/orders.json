@@ -1,0 +1,57 @@
+{
+  "orders": [
+    {
+      "id": "ORD-1001",
+      "customer": "Amina Khan",
+      "email": "amina@example.com",
+      "total": 89.5,
+      "currency": "USD",
+      "status": "delivered",
+      "items": [
+        {
+          "sku": "NB-CASE",
+          "qty": 1,
+          "price": 89.5
+        }
+      ],
+      "refunded": false
+    },
+    {
+      "id": "ORD-1002",
+      "customer": "Leo Martins",
+      "email": "leo@example.com",
+      "total": 240,
+      "currency": "USD",
+      "status": "shipped",
+      "items": [
+        {
+          "sku": "DESK-MAT",
+          "qty": 2,
+          "price": 45
+        },
+        {
+          "sku": "USB-HUB",
+          "qty": 1,
+          "price": 150
+        }
+      ],
+      "refunded": false
+    },
+    {
+      "id": "ORD-1003",
+      "customer": "Priya Shah",
+      "email": "priya@example.com",
+      "total": 32,
+      "currency": "USD",
+      "status": "delivered",
+      "items": [
+        {
+          "sku": "CABLE-USB-C",
+          "qty": 2,
+          "price": 16
+        }
+      ],
+      "refunded": true
+    }
+  ]
+}
